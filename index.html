@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <!-- Image and text -->
+<nav class="navbar navbar-light bg-danger">
+  <a class="navbar-brand" href="#">
+    <img src="/images/calc.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Calculator ApP
+  </a>
+</nav>
+ <form> 
+<div class="container" style="padding: 20px;">
+  <div class="row" style="margin: 3px;">
+    <div class="col-md-4 border border-primary" style="padding: 20px;">
+        <div class="container" style="padding: 5px;">
+          <div class="row" style="margin: 3px;" >
+            <div class="col-sm-12">
+                <input type="number" class="border-primary">
+                <label for="input1">Input 1</label>
+            </div>
+          </div>
+          <div class="row" style="margin: 3px;">
+            <div class="col-sm-12">
+              <input type="number" class="border-primary">
+              <label for="input1">Input 2</label>
+            </div>
+          </div>
+            <div class="row" style="margin: 3px;">
+              <div class="col-sm-12">
+                <input type="number" class="border-danger">
+                <label for="input1">Answer</label>
+              </div>
+            </div>
+              <div class="row" style="margin: 3px;">
+                <div class="col-sm-2 text-center bg-danger myMargin">7</div>
+                <div class="col-sm-2 text-center bg-warning myMargin">8</div>
+                <div class="col-sm-2 text-center bg-secondary myMargin">9</div>
+                <button class="col-sm-2 text-center bg-success myMargin">+</button>
+              </div>
+              <div class="row" style="margin: 3px;">
+                <div class="col-sm-2 text-center bg-warning myMargin">4</div>
+                <div class="col-sm-2 text-center bg-secondary myMargin">5</div>
+                <div class="col-sm-2 text-center bg-success myMargin">6</div>
+                <button class="col-sm-2 text-center bg-primary myMargin">-</button>
+              </div>
+              <div class="row" style="margin: 3px;">
+                <div class="col-sm-2 text-center bg-secondary myMargin">1</div>
+                <div class="col-sm-2 text-center bg-success myMargin">2</div>
+                <div class="col-sm-2 text-center bg-primary myMargin">3</div>
+                <button class="col-sm-2 text-center bg-warning myMargin">X</button>
+              </div>
+              <div class="row" style="margin: 3px;">
+                <button type = reset class="col-sm-2 text-center bg-success myMargin"><-</button>
+                <div class="col-sm-2 text-center bg-primary myMargin">0</div>
+                <button class="col-sm-2 text-center bg-warning myMargin">Ans</button>
+                <button class="col-sm-2 text-center bg-danger myMargin ">%</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</form>
+  </body>
+</html>
